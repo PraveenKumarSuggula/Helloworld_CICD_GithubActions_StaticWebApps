@@ -46,4 +46,4 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_VICTORIOUS_FIELD_0356FC40F }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
-          app_location: "dist/helloworld-cicd-github-actions"
+          app_location: "dist/helloworld-cicd-github-actions"  # Make sure this matches your build output directory
